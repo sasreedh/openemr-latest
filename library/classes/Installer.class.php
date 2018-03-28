@@ -141,6 +141,7 @@ class Installer
   }
 
   public function grant_privileges() {
+    $this->execute_sql( "GRANT ALL PRIVILEGES ON *.* TO 'openemr'@'%' IDENTIFIED BY 'openemr' WITH GRANT OPTION" );    
     return $this->execute_sql( "GRANT ALL PRIVILEGES ON $this->dbname.* TO '$this->login'@'$this->loginhost' IDENTIFIED BY '$this->pass'" );
   }
 
