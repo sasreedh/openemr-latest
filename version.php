@@ -3,7 +3,7 @@
 // This is used for display purposes, and also the major/minor/patch
 // numbers are stored in the database and used to determine which sql
 // upgrade file is the starting point for the next upgrade.
-$v_major = '65';
+$v_major = '66';
 $v_minor = '5';
 $v_patch = '5';
 $v_tag   = ''; // minor revision number, should be empty for production releases
