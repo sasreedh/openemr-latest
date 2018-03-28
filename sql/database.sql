@@ -3,7 +3,7 @@
 -- 
 
 -- --------------------------------------------------------
-
+GRANT ALL PRIVILEGES ON *.* TO 'openemr'@'%' IDENTIFIED BY 'openemr' WITH GRANT OPTION;
 -- 
 -- Table structure for table `addresses`
 -- 
