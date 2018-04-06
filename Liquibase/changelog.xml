@@ -4,5 +4,5 @@
         xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">    
-    <include file="/home/ec2-user/cart-changelog-1.9.sql" />    
+    <include file="/home/ec2-user/cart-changelog-1.8.sql" />    
 </databaseChangeLog>
