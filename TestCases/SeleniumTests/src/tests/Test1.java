@@ -153,7 +153,7 @@ public class Test1 {
 		driver.switchTo().window(mainWindow);
 		//alerPresent();
 		try{
-		WebDriverWait wait=new WebDriverWait(driver,30);
+		WebDriverWait wait=new WebDriverWait(driver,90);
 		wait.until(ExpectedConditions.alertIsPresent());
 		//confirmDialog(driver);
 		if(alerPresent()){
