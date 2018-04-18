@@ -20,6 +20,7 @@ include_once ("../globals.php");
 </frameset>
 
 <noframes><body bgcolor="#FFFFFF">
+  <h2>Medical Application</h2> 
 
 </body></noframes>
 
