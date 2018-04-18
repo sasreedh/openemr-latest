@@ -257,7 +257,7 @@ else {
   $GLOBALS['translate_appt_categories'] = true;
   $GLOBALS['concurrent_layout'] = 2;
   $timeout = 7200;
-  $openemr_name = 'OpenEMR';
+  $openemr_name = 'DAC OpenEMR';
   $css_header = "$rootdir/themes/style_default.css";
   $GLOBALS['css_header'] = $css_header;
   $GLOBALS['schedule_start'] = 8;
