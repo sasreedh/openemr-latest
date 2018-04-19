@@ -10,7 +10,7 @@ include_once("../globals.php");
 <body class="body_title">
 
 <span class="title_bar">
-<div class="title_name">DevOps DAC OpenEMR</div>
+<div class="title_name">DevOps OpenEMR</div>
 
 </span><br>
 
